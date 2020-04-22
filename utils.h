@@ -21,6 +21,8 @@
 //	MENSAJE = 1,
 //}op_code;
 
+
+// Para que funcione con el Broker
 typedef enum {
 	BROKER = 1, GAMEBOY = 2, GAMECARD = 3, TEAM = 4
 

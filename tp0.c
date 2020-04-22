@@ -16,6 +16,7 @@ int main(void) {
 	t_log* logger = iniciar_logger();
 	t_config* config = leer_config();
 
+	// En la config están la IP y puerto del Broker
 	ip = config_get_string_value(config, "IP");
 	puerto = config_get_string_value(config, "PUERTO");
 
